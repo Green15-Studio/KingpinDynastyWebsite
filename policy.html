@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy – Kingpin Dynasty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --bg-color: #0f0f14;
+            --card-color: #1b1b24;
+            --accent-color: #c9a227;
+            --text-color: #e6e6e6;
+            --muted-text: #9a9a9f;
+            --border-color: #2a2a35;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1b1b24 0%, #111118 100%);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: var(--accent-color);
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: var(--muted-text);
+            font-size: 0.95rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: var(--card-color);
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        .policy-content {
+            white-space: pre-wrap;
+            font-size: 1rem;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            color: var(--muted-text);
+            font-size: 0.85rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Privacy Policy</h1>
+        <p>Kingpin Dynasty</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <div class="policy-content">
+                <h1>1. Information We Collect</h1>
+                <ul>
+                    <li>Device Information: IP address, device model, operating system, and device identifiers.</li>
+                    <li>Game Data: Progress, scores, rankings, and gameplay statistics.</li>
+                    <li>Third-Party Data: Information from platforms like Facebook (if linked) or advertising partners.
+                    </li>
+                </ul>
+                <h1>2. How We Use Information</h1>
+                <ul>
+                    <li>To provide and operate the game.</li>
+                    <li>To analyze and improve game performance, fixing bugs.</li>
+                    <li>To display advertisements, including personalized ads, via third-party providers.</li>
+                    <li>To comply with legal obligations.</li>
+                </ul>
+                <h1>3. Third-Party Access</h1>
+                <p>We use third-party analytics (e.g., Google Analytics, Unity Analytics) and advertising providers that
+                    may collect data on our behalf. These partners have their own privacy policies.</p>
+                <h1>4. Children’s Privacy</h1>
+                <p>We do not knowingly collect personal information from children under 13 (or higher age threshold
+                    depending on jurisdiction). If we learn we have, we will delete it immediately.</p>
+                <h1>5. Your Rights</h1>
+                <p>You have the right to access or request deletion of your personal data.</p>
+                <h1>6. Contact Us</h1>
+                <p>For any questions, contact: legal@green15.studio</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            &copy; <span id="year"></span> Kingpin Dynasty. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // Automatically set current year
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
